@@ -2,6 +2,8 @@
 
 In this I have written a smart contract that implements the require(), assert() and revert() statements using the solidity programming language which are used for error handling and control flow within smart contracts.
 
+## Description
+
 - We can use this solidity code and compile it on the remix ide.
 - I have used the pragma solidity version ^0.8.0 for my project.
 - Cash is the uint type public variable which I have used in the function walletCash to implement the error handling statements.
@@ -20,3 +22,6 @@ Revert Statement:
 - The revert statement is used to revert the current transaction, effectively undoing any changes made within the function.
 - It can be used to provide custom error messages when a specific condition is not met.
 - To implement the revert statement I have used the if statement which states that if cash is greater than equals to 100 than a statement is reverted that 'Excess cash must be deposited in the bank account'.
+
+## Author
+Raghav Garg
